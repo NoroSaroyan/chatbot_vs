@@ -1,7 +1,3 @@
-//
-// Created by Norik Saroyan on 17.03.24.
-//
-
 #ifndef BMSTU_CHATBOT_2SEM_UTILITIES_H
 #define BMSTU_CHATBOT_2SEM_UTILITIES_H
 

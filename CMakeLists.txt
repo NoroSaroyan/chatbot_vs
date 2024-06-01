@@ -2,12 +2,12 @@ cmake_minimum_required(VERSION 3.26)
 project(BMSTU_Chatbot_2sem)
 set(CMAKE_CXX_STANDARD 17)
 
-set(Boost_ROOT "/usr/local/Cellar/boost")
+# set(Boost_ROOT "/usr/local/Cellar/boost")
 
-find_package(Boost 1.70.0 REQUIRED COMPONENTS system filesystem)
+# find_package(Boost 1.70.0 REQUIRED COMPONENTS system filesystem)
 
 # Include Boost directories
-include_directories(${Boost_INCLUDE_DIRS})
+# include_directories(${Boost_INCLUDE_DIRS})
 
 add_executable(BMSTU_Chatbot_2sem
         src/main.cpp
@@ -46,4 +46,4 @@ add_executable(BMSTU_Chatbot_2sem
         src/exception/service/QANotFoundException.h
 )
 
-target_link_libraries(BMSTU_Chatbot_2sem ${Boost_LIBRARIES})
+# target_link_libraries(BMSTU_Chatbot_2sem ${Boost_LIBRARIES})

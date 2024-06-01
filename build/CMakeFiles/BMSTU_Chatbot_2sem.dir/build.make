@@ -316,9 +316,6 @@ BMSTU_Chatbot_2sem: CMakeFiles/BMSTU_Chatbot_2sem.dir/src/service/history/Histor
 BMSTU_Chatbot_2sem: CMakeFiles/BMSTU_Chatbot_2sem.dir/src/Entity/history/History.cpp.o
 BMSTU_Chatbot_2sem: CMakeFiles/BMSTU_Chatbot_2sem.dir/src/helpers/mappers/history/HistoryMapper.cpp.o
 BMSTU_Chatbot_2sem: CMakeFiles/BMSTU_Chatbot_2sem.dir/build.make
-BMSTU_Chatbot_2sem: /usr/local/lib/libboost_system-mt.dylib
-BMSTU_Chatbot_2sem: /usr/local/lib/libboost_filesystem-mt.dylib
-BMSTU_Chatbot_2sem: /usr/local/lib/libboost_atomic-mt.dylib
 BMSTU_Chatbot_2sem: CMakeFiles/BMSTU_Chatbot_2sem.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/noriksaroyan/Desktop/BMSTU_Chatbot_2sem-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable BMSTU_Chatbot_2sem"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BMSTU_Chatbot_2sem.dir/link.txt --verbose=$(VERBOSE)
