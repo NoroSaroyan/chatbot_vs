@@ -9,17 +9,21 @@
 #include <ctime>
 #include <string>
 
-class HistoryService : public BaseService {
+class HistoryService : public BaseService
+{
 private:
     HistoryMapper historyMapper;
 
 public:
-    HistoryService() : BaseService("/Users/noriksaroyan/CLionProjects/BMSTU-Chatbot-2sem/static/Database/history") {
+    HistoryService() : BaseService("static/Database/history/")
+    {
     }
 
-    std::string createRecord(const std::string &userId, const QA &qa, time_t time);
+    string createRecord(const std::string &username, const QA &qa);
 
-    void postRecord(const std::string &userId, const std::string &record);
+    void postRecord(const string &username, const string &record);
+
+    MyGenericVector<QA> getHistory(string &username);
 };
 
 #endif // BMSTU_CHATBOT_2SEM_HISTORYSERVICE_H

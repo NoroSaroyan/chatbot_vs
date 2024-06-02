@@ -7,26 +7,22 @@
 #include "../../../Headers.h"
 #include "../qa/QA.h"
 
-class History {
+class History
+{
 private:
     string userId;
     QA qa;
-    time_t timestamp;
+
 public:
-    History(const string &userId, const QA &qa, time_t timestamp);
+    History(const string &userId, const QA &qa);
 
     string getUserId();
 
     QA getQA();
 
-    time_t getTimestamp();
-
     void setUserId(string userId);
 
     void setQA(QA qa);
-
-    void setTimestamp(time_t timestamp);
 };
 
-
-#endif //BMSTU_CHATBOT_2SEM_HISTORY_H
+#endif // BMSTU_CHATBOT_2SEM_HISTORY_H

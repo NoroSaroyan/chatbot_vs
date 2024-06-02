@@ -1,0 +1,3 @@
+/Users/noriksaroyan/Desktop/BMSTU_Chatbot_2sem-master/build/CMakeFiles/BMSTU_Chatbot_2sem.dir
+/Users/noriksaroyan/Desktop/BMSTU_Chatbot_2sem-master/build/CMakeFiles/edit_cache.dir
+/Users/noriksaroyan/Desktop/BMSTU_Chatbot_2sem-master/build/CMakeFiles/rebuild_cache.dir

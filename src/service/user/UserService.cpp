@@ -2,7 +2,7 @@
 #include "../../exception/service/ServiceConnectionException.h"
 
 // UserService::UserService() : BaseService("/Users/noriksaroyan/CLionProjects/BMSTU-Chatbot-2sem/static/Database/users.txt") {}
-UserService::UserService() : BaseService("/Users/noriksaroyan/CLionProjects/BMSTU-Chatbot-2sem/static/Database/users.txt") {}
+UserService::UserService() : BaseService("static/Database/users.txt") {}
 
 void UserService::registerAccount(const std::string &username, const std::string &password)
 {
