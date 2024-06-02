@@ -1,31 +1,39 @@
 #include "Menu.h"
 #include "../../Headers.h"
 
-Menu::Menu(string title, MenuItem *items, size_t count) : title(title), items(items), count(count) {
+Menu::Menu(string title, MenuItem *items, size_t count) : count(count), title(title), items(items)
+{
 }
 
-int Menu::getSelect() const {
+int Menu::getSelect() const
+{
     return select;
 }
 
-bool Menu::isRun() const {
+bool Menu::isRun() const
+{
     return running;
 }
 
-size_t Menu::getCount() const {
+size_t Menu::getCount() const
+{
     return count;
 }
 
-string Menu::getTitle() {
+string Menu::getTitle()
+{
     return title;
 }
 
-MenuItem *Menu::getItems() {
+MenuItem *Menu::getItems()
+{
     return items;
 }
 
-void Menu::print() {
-    for (size_t i{}; i < count; ++i) {
+void Menu::print()
+{
+    for (size_t i{}; i < count; ++i)
+    {
         cout << i + 1 << ". ";
         items[i].print();
         cout << std::endl;
@@ -33,7 +41,8 @@ void Menu::print() {
     cout << "0. exit" << std::endl;
 }
 
-int Menu::runCommand() {
+int Menu::runCommand()
+{
     print();
     cout << "\n   Select >> ";
     cin >> select;

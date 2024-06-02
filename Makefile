@@ -43,7 +43,6 @@ clean:
 
 .PHONY: all clean
 
-
 real: 
 	g++ -std=c++17 -Wall -o BMSTU_Chatbot_2sem src/main.o src/Menu/MenuItem.o src/Menu/Menu.o src/Entity/user/User.o src/helpers/encoder/Encoder.o src/service/user/UserService.o src/helpers/utils/Utilities.o src/helpers/mappers/user/UserMapper.o src/Entity/qa/QA.o src/auth/AuthManager.o src/helpers/mappers/qa/QAMapper.o src/service/qa/QAService.o src/service/history/HistoryService.o src/Entity/history/History.o src/helpers/mappers/history/HistoryMapper.o
 #g++ -std=c++17 -Wall -c src/Menu/MenuItem.cpp -o src/Menu/MenuItem.o

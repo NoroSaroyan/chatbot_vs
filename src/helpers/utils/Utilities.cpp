@@ -1,9 +1,10 @@
-using namespace std;
 #include "random"
 #include "Utilities.h"
 #include "ctime"
 #include "cstdlib"
 #include "string"
+
+using namespace std;
 
 bool Utilities::checkEmail(const std::string &email)
 {

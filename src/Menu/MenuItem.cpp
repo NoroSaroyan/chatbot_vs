@@ -5,17 +5,20 @@
 #include "MenuItem.h"
 #include "../../Headers.h"
 
-MenuItem::MenuItem(string name, Func func) : item_name(name), func(func) {
-}
+MenuItem::MenuItem(string name, Func func) : func(func), item_name(name){}
 
-string MenuItem::getName() const {
+
+ string MenuItem::getName() const
+{
     return item_name;
 }
 
-void MenuItem::print() {
+void MenuItem::print()
+{
     std::cout << item_name;
 }
 
-int MenuItem::run() {
+int MenuItem::run()
+{
     return func();
 }
